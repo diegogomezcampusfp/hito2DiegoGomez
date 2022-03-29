@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Añadir usuarios</title>
+</head>
+
+<body>
+	<!-- Navbar -->
+	<a href="../index.php">Inicio</a class="pure-menu-link"> | <a href="../Views/view.php">Ver usuarios</a class="pure-menu-link"> | <a href="../base/logout.php">Cerrar sesión</a class="pure-menu-link">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+	<br/><br/>
+	
+	<!-- Formulario para añadir usuario -->
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Nombre</td>
+				<td><input type="text" name="nom"></td>
+			</tr>
+			<tr> 
+				<td>Apellidos</td>
+				<td><input type="text" name="ape"></td>
+			</tr>
+			<tr> 
+				<td>Teléfono</td>
+				<td><input type="number" name="tel"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Añadir"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
